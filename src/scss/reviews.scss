@@ -2,9 +2,18 @@
   position: relative;
 }
 
+.reviews-section > h2 {
+  margin-bottom: 16px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+  }
+}
+
 .reviews-button {
   display: none;
   @media screen and (min-width: 1200px) {
+    display: block;
+    cursor: pointer;
     position: absolute;
     top: 50%;
     z-index: 300;
