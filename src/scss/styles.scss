@@ -22,6 +22,18 @@
 
 body {
   font-family: 'Open-sans', sans-serif;
+  background-color: #1f3861;
+  color: #fff;
+}
+
+h2 {
+  position: relative;
+  z-index: 2;
+  font: 700 32px 'Lora', sans-serif;
+  color: #fff;
+  @media screen and (min-width: 1200px) {
+    font: 700 48px 'Lora', sans-serif;
+  }
 }
 
 .container {
@@ -32,5 +44,12 @@ body {
   @media screen and (min-width: 1200px) {
     width: 1200px;
     padding: 0 40px;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+  @media screen and (min-width: 1200px) {
+    visibility: visible;
   }
 }

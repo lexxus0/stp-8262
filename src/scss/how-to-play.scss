@@ -1,0 +1,95 @@
+.how-heading {
+  margin-bottom: 32px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+  }
+}
+
+.how-bigpic {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 340px;
+    height: 340px;
+    margin-top: 12px;
+  }
+}
+
+.how-div {
+  display: flex;
+  align-items: center;
+}
+
+.how-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  @media screen and (min-width: 1200px) {
+    gap: 32px;
+  }
+}
+
+.how-list-wrapper {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.how-item-wrapper {
+  display: flex;
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .how-item-wrapper:nth-child(1) {
+    margin-left: -90px;
+  }
+  .how-item-wrapper:nth-child(2) {
+    margin-left: -10px;
+  }
+  .how-item-wrapper:nth-child(3) {
+    margin-left: 55px;
+  }
+  .how-item-wrapper:nth-child(4) {
+    margin-left: -10px;
+  }
+  .how-item-wrapper:nth-child(5) {
+    margin-left: -90px;
+  }
+}
+
+.how-splash {
+  position: absolute;
+  top: -30px;
+  left: -20px;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+}
+
+.how-elipse {
+  width: 55px;
+  height: 55px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 5px;
+  }
+}
+
+.how-list-p {
+  font: 700 14px 'Open Sans', sans-serif;
+  line-break: unset;
+  @media screen and (min-width: 1200px) {
+    font: 700 16px 'Open Sans', sans-serif;
+  }
+}
+
+.how-list-li {
+  margin-left: 25px;
+  list-style-type: disc;
+  font: 400 12px 'Open Sans', sans-serif;
+  @media screen and (min-width: 1200px) {
+    font: 400 15px 'Open Sans', sans-serif;
+  }
+}

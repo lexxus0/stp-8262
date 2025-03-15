@@ -1,0 +1,53 @@
+.footer-div {
+  background-image: url('/img/footer/footermob.png');
+  @media screen and (min-width: 1200px) {
+    background-image: url('/img/footer/footerdesk.png');
+    position: relative;
+  }
+}
+
+.footer-div img {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+  }
+}
+
+.footer-div > div {
+  padding-block: 16px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+.footer-div > div > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.footer-div p {
+  font: 400 12px 'Open Sans', sans-serif;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    font: 400 16px 'Open Sans', sans-serif;
+  }
+}
+
+.footer-div span {
+  margin-inline: 4px;
+  @media screen and (min-width: 1200px) {
+    margin-inline: 16px;
+  }
+}
+
+.footer-span {
+  margin-inline: 3.5px !important;
+}
