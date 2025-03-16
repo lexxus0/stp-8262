@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.reviews-section > h2 {
+.reviews-section h2 {
   margin-bottom: 16px;
   @media screen and (min-width: 1200px) {
     margin-bottom: 48px;
@@ -22,10 +22,12 @@
 
 .reviews-button-prev {
   left: 0;
+  top: 360px;
 }
 
 .reviews-button-next {
   right: 0;
+  top: 360px;
 }
 
 .reviews-swiper-slide {
@@ -53,7 +55,7 @@
 .reviews-nav {
   margin-top: 35px;
   @media screen and (min-width: 1200px) {
-    margin-top: 55px;
+    display: none;
   }
 }
 
@@ -93,4 +95,14 @@
     width: 264px;
     justify-content: center;
   }
+}
+
+.honey-r-visible-desk {
+  position: absolute;
+  rotate: 150deg;
+  left: -160px;
+  top: -280px;
+  width: 420px;
+  height: 420px;
+  transform: scaleX(-1);
 }
