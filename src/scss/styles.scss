@@ -53,9 +53,42 @@ h2 {
     visibility: visible;
   }
 }
+
 .line-mb {
   padding-top: 32px;
   padding-bottom: 32px;
+
+.sun-wrapper {
+  position: relative;
+}
+
+.sun-mob {
+  position: absolute;
+  left: -55px;
+  top: -70px;
+}
+
+.sun-desk {
+  position: absolute;
+  left: -88px;
+  top: -156.5px;
+}
+
+.honey-invisible-mob {
+  position: absolute;
+  right: -65px;
+  top: -105px;
+}
+
+.honey-visible-mob {
+  rotate: -5deg;
+  position: absolute;
+  right: -105px;
+  top: -140px;
+}
+
+.border-mob {
+  display: block;
   @media screen and (min-width: 1200px) {
     display: none;
   }
@@ -66,5 +99,18 @@ h2 {
     display: block;
     padding-top: 96px;
     padding-bottom: 96px;
+
+.border-mob,
+.border-desk {
+  margin-block: 32px;
+  @media screen and (min-width: 1200px) {
+    margin-block: 96px;
+  }
+}
+
+.border-desk {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
   }
 }
