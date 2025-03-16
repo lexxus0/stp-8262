@@ -1,7 +1,17 @@
 .about-game {
   background: url(../img/about-game/about_this_game_mobile.png);
+  // padding: 32px 0;
 }
+
+.about-wrap {
+  padding: 32px 0;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 16px;
+}
+
 .about-game-tittle {
+  padding-bottom: 16px;
   // font-family: 'Lora', sans-serif;
   // font-weight: 700;
   // font-size: 32px;

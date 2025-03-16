@@ -57,6 +57,10 @@ h2 {
 .line-mb {
   padding-top: 32px;
   padding-bottom: 32px;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
 
 .sun-wrapper {
   position: relative;
@@ -99,6 +103,8 @@ h2 {
     display: block;
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+}
 
 .border-mob,
 .border-desk {
