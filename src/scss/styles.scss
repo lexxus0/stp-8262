@@ -53,3 +53,18 @@ h2 {
     visibility: visible;
   }
 }
+.line-mb {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.line-dsk {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
