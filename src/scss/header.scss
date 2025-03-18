@@ -1,9 +1,12 @@
 .header {
+  position: relative; //======================?
   border-radius: 0 0 20px 20px;
   width: 320px;
   height: 60px;
   box-shadow: 0 2px 2px 0 #3e73cc;
   background: #1f4375;
+  // overflow: hidden; //===============?
+  z-index: 1000; // =================?
 }
 
 .header-wrap {
@@ -33,16 +36,21 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
+  // position: relative;
+  position: absolute; //==============?
+  top: 0; //===================?
+  left: 0; //===============?
   background-color: #1f4375;
   width: 100%;
   border-radius: 0 0 20px 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 999;
+  // padding-top: 60px; //===============?
 }
 
 .dropdown-content-wrap {

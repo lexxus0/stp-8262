@@ -1,5 +1,8 @@
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-info {
@@ -14,19 +17,26 @@
 .hero-text {
   font-weight: 400;
   font-size: 14px;
+  // z-index: 2;
 }
 
 .hero-img {
-  position: absolute;
+  position: relative;
+  top: -37px;
+  z-index: -1;
 }
 
 .hero-btn {
+  padding-top: 24px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   background: #007cd7;
   border-radius: 10px;
-  padding: 10px 48px 13px 48px;
-  width: 203px;
+  padding: 10px 35px 13px 48px;
+  width: 204px;
   height: 50px;
   border: none;
 }
