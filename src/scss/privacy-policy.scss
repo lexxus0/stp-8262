@@ -1,579 +1,73 @@
-.privacy-policy,
-.privacy-policy * {
-  box-sizing: border-box;
-}
-.privacy-policy {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 320px;
-  position: relative;
-}
-.privacy-policy-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 280px;
-  position: relative;
-}
-.button-go-to-home {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.btn-go-to-home-img {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.go-to-home-page {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.privacy {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.privacy-policy-title {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 32px;
+.privacy-policy h2 {
+  font-family: 'Lora', sans-serif;
   font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.privacy-text {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.inform-collect-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.information-collection-and-use {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
   font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
 }
-.frame-86 {
+
+li {
+  line-break: strict;
+}
+
+.privacy-policy span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.privacy-policy h3 {
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.privacy-policy div {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  margin-block: 32px;
 }
-.the-application-collects-information-when-you-download-and-use-it-this-information-may-include-information-such-as-your-device-s-internet-protocol-address-e-g-ip-address-the-pages-of-the-application-that-you-visit-the-time-and-date-of-your-visit-the-time-spent-on-those-pages-the-time-spent-on-the-application-the-operating-system-you-use-on-your-mobile-device {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
+
+.privacy-policy div p {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.the-application-collects-information-when-you-download-and-use-it-this-information-may-include-information-such-as-your-device-s-internet-protocol-address-e-g-ip-address-the-pages-of-the-application-that-you-visit-the-time-and-date-of-your-visit-the-time-spent-on-those-pages-the-time-spent-on-the-application-the-operating-system-you-use-on-your-mobile-device-span {
-  color: var(--textwite, #ffffff);
-  font-family: 'OpenSans-Regular', sans-serif;
   font-size: 16px;
-  font-weight: 400;
 }
-.the-application-collects-information-when-you-download-and-use-it-this-information-may-include-information-such-as-your-device-s-internet-protocol-address-e-g-ip-address-the-pages-of-the-application-that-you-visit-the-time-and-date-of-your-visit-the-time-spent-on-those-pages-the-time-spent-on-the-application-the-operating-system-you-use-on-your-mobile-device-span2 {
-  color: var(--textwite, #ffffff);
-  list-style-type: disc;
-  padding-left: 1em;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.the-application-does-not-gather-precise-information-about-the-location-of-your-mobile-device {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.the-service-provider-may-use-the-information-you-provided-to-contact-you-from-time-to-time-to-provide-you-with-important-information-required-notices-and-marketing-promotions {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.for-a-better-experience-while-using-the-application-the-service-provider-may-require-you-to-provide-us-with-certain-personally-identifiable-information-the-information-that-the-service-provider-request-will-be-retained-by-them-and-used-as-described-in-this-privacy-policy {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-89 {
+
+.privacy-policy div ul {
+  list-style: disc;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.third-party-access {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.frame-88 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.only-aggregated-anonymized-data-is-periodically-transmitted-to-external-services-to-aid-the-service-provider-in-improving-the-application-and-their-service-the-service-provider-may-share-your-information-with-third-parties-in-the-ways-that-are-described-in-this-privacy-statement {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.please-note-that-the-application-utilizes-third-party-services-that-have-their-own-privacy-policy-about-handling-data-below-are-the-links-to-the-privacy-policy-of-the-third-party-service-providers-used-by-the-application-google-play-services-google-analytics-for-firebase-facebook {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.please-note-that-the-application-utilizes-third-party-services-that-have-their-own-privacy-policy-about-handling-data-below-are-the-links-to-the-privacy-policy-of-the-third-party-service-providers-used-by-the-application-google-play-services-google-analytics-for-firebase-facebook-span {
-  color: var(--textwite, #ffffff);
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.please-note-that-the-application-utilizes-third-party-services-that-have-their-own-privacy-policy-about-handling-data-below-are-the-links-to-the-privacy-policy-of-the-third-party-service-providers-used-by-the-application-google-play-services-google-analytics-for-firebase-facebook-span2 {
-  color: var(--textwite, #ffffff);
-  list-style-type: disc;
-  padding-left: 1em;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.please-note-that-the-application-utilizes-third-party-services-that-have-their-own-privacy-policy-about-handling-data-below-are-the-links-to-the-privacy-policy-of-the-third-party-service-providers-used-by-the-application-google-play-services-google-analytics-for-firebase-facebook-span3 {
-  color: var(--textwite, #ffffff);
-  list-style-type: disc;
-  padding-left: 1em;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.please-note-that-the-application-utilizes-third-party-services-that-have-their-own-privacy-policy-about-handling-data-below-are-the-links-to-the-privacy-policy-of-the-third-party-service-providers-used-by-the-application-google-play-services-google-analytics-for-firebase-facebook-span4 {
-  color: var(--textwite, #ffffff);
-  list-style-type: disc;
-  padding-left: 1em;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.the-service-provider-may-disclose-user-provided-and-automatically-collected-information-as-required-by-law-such-as-to-comply-with-a-subpoena-or-similar-legal-process-when-they-believe-in-good-faith-that-disclosure-is-necessary-to-protect-their-rights-protect-your-safety-or-the-safety-of-others-investigate-fraud-or-respond-to-a-government-request-with-their-trusted-services-providers-who-work-on-their-behalf-do-not-have-an-independent-use-of-the-information-we-disclose-to-them-and-have-agreed-to-adhere-to-the-rules-set-forth-in-this-privacy-statement {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.the-service-provider-may-disclose-user-provided-and-automatically-collected-information-as-required-by-law-such-as-to-comply-with-a-subpoena-or-similar-legal-process-when-they-believe-in-good-faith-that-disclosure-is-necessary-to-protect-their-rights-protect-your-safety-or-the-safety-of-others-investigate-fraud-or-respond-to-a-government-request-with-their-trusted-services-providers-who-work-on-their-behalf-do-not-have-an-independent-use-of-the-information-we-disclose-to-them-and-have-agreed-to-adhere-to-the-rules-set-forth-in-this-privacy-statement-span {
-  color: var(--textwite, #ffffff);
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.the-service-provider-may-disclose-user-provided-and-automatically-collected-information-as-required-by-law-such-as-to-comply-with-a-subpoena-or-similar-legal-process-when-they-believe-in-good-faith-that-disclosure-is-necessary-to-protect-their-rights-protect-your-safety-or-the-safety-of-others-investigate-fraud-or-respond-to-a-government-request-with-their-trusted-services-providers-who-work-on-their-behalf-do-not-have-an-independent-use-of-the-information-we-disclose-to-them-and-have-agreed-to-adhere-to-the-rules-set-forth-in-this-privacy-statement-span2 {
-  color: var(--textwite, #ffffff);
-  list-style-type: disc;
-  padding-left: 1em;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.frame-90 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.opt-out-rights {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.you-can-stop-all-collection-of-information-by-the-application-easily-by-uninstalling-it-you-may-use-the-standard-uninstall-processes-as-may-be-available-as-part-of-your-mobile-device-or-via-the-mobile-application-marketplace-or-network {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-91 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.data-retention-policy {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.the-service-provider-will-retain-user-provided-data-for-as-long-as-you-use-the-application-and-for-a-reasonable-time-thereafter-if-you-d-like-them-to-delete-user-provided-data-that-you-have-provided-via-the-application-please-contact-them-at-info-fusionglowstar-com-and-they-will-respond-in-a-reasonable-time {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-97 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.children {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.frame-92 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.the-service-provider-does-not-use-the-application-to-knowingly-solicit-data-from-or-market-to-children-under-the-age-of-13 {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.the-application-does-not-address-anyone-under-the-age-of-13-the-service-provider-does-not-knowingly-collect-personally-identifiable-information-from-children-under-13-years-of-age-in-the-case-the-service-provider-discover-that-a-child-under-13-has-provided-personal-information-the-service-provider-will-immediately-delete-this-from-their-servers-if-you-are-a-parent-or-guardian-and-you-are-aware-that-your-child-has-provided-us-with-personal-information-please-contact-the-service-provider-info-fusionglowstar-com-so-that-they-will-be-able-to-take-the-necessary-actions {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-93 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.security {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.the-service-provider-is-concerned-about-safeguarding-the-confidentiality-of-your-information-the-service-provider-provides-physical-electronic-and-procedural-safeguards-to-protect-information-the-service-provider-processes-and-maintains {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-99 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.changes {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.frame-98 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.this-privacy-policy-may-be-updated-from-time-to-time-for-any-reason-the-service-provider-will-notify-you-of-any-changes-to-the-privacy-policy-by-updating-this-page-with-the-new-privacy-policy-you-are-advised-to-consult-this-privacy-policy-regularly-for-any-changes-as-continued-use-is-deemed-approval-of-all-changes {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.this-privacy-policy-is-effective-as-of-2025-02-26 {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-95 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.your-consent {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.by-using-the-application-you-are-consenting-to-the-processing-of-your-information-as-set-forth-in-this-privacy-policy-now-and-as-amended-by-us {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.frame-96 {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.contact-us {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'Lora-Bold', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: relative;
-  align-self: stretch;
-}
-.if-you-have-any-questions-regarding-privacy-while-using-the-application-or-have-questions-about-the-practices-please-contact-the-service-provider-via-email-at-info-fusionglowstar-com {
-  color: var(--textwite, #ffffff);
-  text-align: left;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.futer-mobile {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  padding: 16px 20px 16px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-.frame-176 {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 204px;
-  position: relative;
-}
-.frame-175 {
-  display: flex;
-  flex-direction: row;
   gap: 6px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  margin-top: -20px;
+  margin-left: 30px;
 }
-.privacy-policy2 {
-  color: var(--textwite, #ffffff);
-  text-align: center;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: relative;
+
+.privacy-policy a {
+  text-decoration: underline;
 }
-.div {
-  color: var(--textwite, #ffffff);
-  text-align: center;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  width: 6px;
-}
-.terms-conditions {
-  color: var(--textwite, #ffffff);
-  text-align: center;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: relative;
-  width: 111px;
-}
-.cookie-policy {
-  color: var(--textwite, #ffffff);
-  text-align: center;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.all-rights-reserved-fusionglowstar-com-2025 {
-  color: var(--textwite, #ffffff);
-  text-align: center;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
+
+@media screen and (min-width: 1200px) {
+  .privacy-policy h2 {
+    font-size: 48px;
+  }
+
+  .privacy-policy h3 {
+    font-size: 32px;
+  }
+
+  .privacy-policy div p {
+    font-size: 24px;
+  }
+  .privacy-policy div ul li {
+    font-size: 24px;
+  }
+
+  .privacy-policy div ul {
+    font-size: 24px;
+    margin-top: -15px;
+  }
+
+  .privacy-policy span {
+    font-size: 24px;
+  }
 }
