@@ -11,6 +11,7 @@
 @import './footer.scss';
 @import './add-page.scss';
 @import './back-to-home-btn.scss';
+@import './privacy-policy.scss';
 
 :root {
   --text-wite: #fff;
@@ -53,7 +54,6 @@ h2 {
     visibility: visible;
   }
 }
-
 
 .sun-wrapper {
   position: relative;
