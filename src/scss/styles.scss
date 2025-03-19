@@ -8,8 +8,11 @@
 @import './faq.scss';
 @import './reviews.scss';
 @import './gallery.scss';
+@import './cookie.scss';
 @import './footer.scss';
 @import './add-page.scss';
+@import './terms-and-conditions.scss';
+@import './cookies-policy.scss';
 @import './back-to-home-btn.scss';
 
 :root {
@@ -53,7 +56,6 @@ h2 {
     visibility: visible;
   }
 }
-
 
 .sun-wrapper {
   position: relative;

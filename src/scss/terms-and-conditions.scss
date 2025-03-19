@@ -1,0 +1,73 @@
+.terms-section h2 {
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+li {
+  line-break: strict;
+}
+
+.terms-section span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.terms-section h3 {
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.terms-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block: 32px;
+}
+
+.terms-section div p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.terms-section div ul {
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.terms-section a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1200px) {
+  .terms-section h2 {
+    font-size: 48px;
+  }
+
+  .terms-section h3 {
+    font-size: 32px;
+  }
+
+  .terms-section div p {
+    font-size: 24px;
+  }
+  .terms-section div ul li {
+    font-size: 24px;
+  }
+
+  .terms-section div ul {
+    font-size: 24px;
+    margin-top: -15px;
+  }
+
+  .terms-section span {
+    font-size: 24px;
+  }
+}
