@@ -67,6 +67,14 @@
   font-size: 16px;
   color: #fff;
 }
+
+.hero-btn :focus {
+  background-color: #f46a5c;
+}
+.hero-btn :hover {
+  background-color: #f6bb64;
+}
+
 @media screen and (min-width: 1200px) {
   .hero-img {
     display: none;

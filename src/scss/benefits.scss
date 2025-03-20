@@ -10,10 +10,11 @@
   width: 280px;
   height: 102px;
 }
-.benefits-left {
+.benefits-top {
   position: absolute;
-  bottom: 10px;
-  left: -60px;
+  right: -40px;
+  top: -60px;
+  z-index: -2;
 }
 
 .benefits-item-wrap {
@@ -35,6 +36,9 @@
 .benefits-item-text {
   font-weight: 400;
   font-size: 12px;
+}
+.benefits_left_dt {
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -61,5 +65,14 @@
   .benefits-item-wrap {
     top: 54px;
     left: 72px;
+  }
+  .benefits-top {
+    width: 435px;
+    height: 500px;
+  }
+  .benefits_left_dt {
+    display: block;
+    position: absolute;
+    top: 300px;
   }
 }

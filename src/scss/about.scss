@@ -24,3 +24,23 @@
   font-size: 14px;
   // color: #fff;
 }
+
+@media screen and (min-width: 1200px) {
+  .about-game {
+    background: url(../img/about-game/about_this_game_desk.png);
+    width: 1200px;
+    height: 299px;
+  }
+  .about-wrap {
+    padding: 48px 0;
+  }
+  .about-game-tittle {
+    // font-size: 48px;
+    // padding-top: 48px;
+    padding-bottom: 32px;
+  }
+  .about-game-text {
+    font-size: 16px;
+    width: 645px;
+  }
+}
