@@ -1,7 +1,6 @@
 import Cookies from 'js-cookie';
 
 const COOKIE_NAME = 'acceptCookies';
-const expires = new Date(new Date().getTime() + 5 * 60 * 1000);
 
 if (!Cookies.get(COOKIE_NAME)) {
   document.addEventListener('DOMContentLoaded', () => {
@@ -11,19 +10,25 @@ if (!Cookies.get(COOKIE_NAME)) {
     const declineBtn = document.querySelector('.decline');
 
     setTimeout(() => {
-      cookiesWindow.classList.add('show-cookies-popup');
-      overlay.classList.add('show-overlay');
+      if (!Cookies.get(COOKIE_NAME)) {
+        cookiesWindow.classList.add('show-cookies-popup');
+        overlay.classList.add('show-overlay');
+      }
     }, 1000);
 
     const handleAddCookie = () => {
-      cookiesWindow.classList.remove('show-cookies-popup');
-      overlay.classList.remove('show-overlay');
-      Cookies.set(COOKIE_NAME, true, { expires });
+      Cookies.set(COOKIE_NAME, 'true', { expires: 5 / (24 * 60) }); // 5 хвилин
+      hideCookiesPopup();
     };
+
     const handleRemoveCookie = () => {
+      Cookies.set(COOKIE_NAME, 'false', { expires: 5 / (24 * 60) });
+      hideCookiesPopup();
+    };
+
+    const hideCookiesPopup = () => {
       cookiesWindow.classList.remove('show-cookies-popup');
       overlay.classList.remove('show-overlay');
-      Cookies.set(COOKIE_NAME, false, { expires });
     };
 
     acceptBtn.addEventListener('click', handleAddCookie);

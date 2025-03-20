@@ -32,10 +32,13 @@
 .benefits-item-tittle {
   font-weight: 700;
   font-size: 14px;
+  width: 225px;
 }
 .benefits-item-text {
   font-weight: 400;
   font-size: 12px;
+  width: 225px;
+  line-break: anywhere;
 }
 .benefits_left_dt {
   display: none;
@@ -58,9 +61,11 @@
   }
   .benefits-item-tittle {
     font-size: 16px;
+    width: auto;
   }
   .benefits-item-text {
     font-size: 14px;
+    width: auto;
   }
   .benefits-item-wrap {
     top: 54px;

@@ -8,7 +8,7 @@
   height: 60px;
   box-shadow: 0 2px 2px 0 #3e73cc;
   background: #1f4375;
-  // overflow: hidden; //===============?
+  // overflow-y: hidden; //===============?
   z-index: 1000; // =================?
 }
 
@@ -19,10 +19,6 @@
   width: 271px;
   padding-top: 9px;
   // margin: 0px 9px 9px 16px;
-}
-
-.header-logo {
-  // width: 55px;
 }
 
 .header-icon {
@@ -40,19 +36,19 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  z-index: -3;
 }
 
 .dropdown-content {
   display: none;
-  // position: relative;
+  position: relative;
   position: absolute; //==============?
-  top: 0; //===================?
-  left: 0; //===============?
+  top: -10px; //===================?
+  left: -20px;
   background-color: #1f4375;
-  width: 100%;
+  width: 320px;
   border-radius: 0 0 20px 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 999;
   // padding-top: 60px; //===============?
 }
 
@@ -60,7 +56,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 43px 193px 24px 20px;
+  padding: 43px 16px 24px 20px;
 }
 
 .dropdown-item {
@@ -77,15 +73,17 @@ html {
 #about-the-game,
 #gallery,
 #faq {
-  scroll-margin-top: 75px;
+  scroll-margin-top: 95px;
 }
 
 @media screen and (min-width: 1200px) {
   .header {
     display: flex;
-    right: 0;
-    left: 0;
-    padding-top: 50px;
+    padding-top: 80px !important;
+  }
+
+  .header-logo {
+    margin-top: -65px;
   }
   .header-icon {
     display: none;
@@ -98,12 +96,15 @@ html {
     display: flex;
     position: absolute;
     box-shadow: none;
+    width: 100%;
+    padding-top: 7.5px;
   }
 
   .dropdown-content-wrap {
     flex-direction: row;
     margin-left: 100px;
-    margin-top: 14px;
+    margin-top: -75px;
+    z-index: 10 !important;
     align-items: center;
     gap: 50px;
     padding: 0;
