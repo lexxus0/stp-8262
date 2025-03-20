@@ -1,5 +1,13 @@
 .benefits-tittle {
   padding-bottom: 32px;
+  // background-image: url('../img/sun/sunmob.png');
+  // background-size: contain;
+  // background-position: top;
+  // background-position-x: left;
+  // background-position-y: top;
+  // background-repeat: no-repeat;
+  // width: 100%;
+  // height: 100px;
 }
 .benefits-list {
   display: flex;
@@ -24,6 +32,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 225px;
 }
 
 .benefits-item-img {

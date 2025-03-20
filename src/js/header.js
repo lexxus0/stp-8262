@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const btn = document.querySelector('.dropdown-btn');
   const menu = document.querySelector('.dropdown-content');
+  const menuItems = document.querySelectorAll('.dropdown-item');
 
   btn.addEventListener('click', function () {
     if (window.innerWidth < 1200) {
@@ -16,5 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
     ) {
       menu.style.display = 'none';
     }
+  });
+
+  menuItems.forEach(item => {
+    item.addEventListener('click', function () {
+      if (window.innerWidth < 1200) {
+        menu.style.display = 'none';
+      }
+    });
   });
 });
