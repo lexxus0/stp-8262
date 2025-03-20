@@ -1,6 +1,6 @@
 .reviews-section {
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .reviews-section h2 {
@@ -23,12 +23,12 @@
 
 .reviews-button-prev {
   left: 0;
-  top: 360px;
+  top: 450px;
 }
 
 .reviews-button-next {
   right: 0;
-  top: 360px;
+  top: 450px;
 }
 
 .reviews-swiper-slide {
@@ -85,6 +85,12 @@
   @media screen and (min-width: 1200px) {
     width: 266px;
     height: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reviews-section {
+    overflow: visible;
   }
 }
 

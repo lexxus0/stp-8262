@@ -126,8 +126,10 @@ h2 {
   }
 }
 
-#how-to-play,
-#feature-keys,
-#gallery {
-  overflow: hidden;
+@media screen and (max-width: 1199px) {
+  #how-to-play,
+  #feature-keys,
+  #gallery {
+    overflow: hidden;
+  }
 }
