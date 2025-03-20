@@ -1,7 +1,10 @@
 .header {
-  position: relative; //======================?
+  position: fixed; //======================?
   border-radius: 0 0 20px 20px;
   width: 320px;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 60px;
   box-shadow: 0 2px 2px 0 #3e73cc;
   background: #1f4375;
@@ -69,10 +72,20 @@ html {
   scroll-behavior: smooth;
 }
 
+#benefits,
+#feature-keys,
+#about-the-game,
+#gallery,
+#faq {
+  scroll-margin-top: 75px;
+}
+
 @media screen and (min-width: 1200px) {
   .header {
-    position: relative;
     display: flex;
+    right: 0;
+    left: 0;
+    padding-top: 50px;
   }
   .header-icon {
     display: none;
@@ -89,6 +102,9 @@ html {
 
   .dropdown-content-wrap {
     flex-direction: row;
+    margin-left: 100px;
+    margin-top: 14px;
+    align-items: center;
     gap: 50px;
     padding: 0;
   }
@@ -97,7 +113,6 @@ html {
     align-self: center;
     border-radius: 10px;
     padding: 3px 14px;
-    width: 112px;
     height: 25px;
     background-color: #1f4375;
     position: relative;

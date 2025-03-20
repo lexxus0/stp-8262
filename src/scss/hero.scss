@@ -60,19 +60,17 @@
   width: 204px;
   height: 50px;
   border: none;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #f6bb64;
 }
 
 .hero-btn-text {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-}
-
-.hero-btn :focus {
-  background-color: #f46a5c;
-}
-.hero-btn :hover {
-  background-color: #f6bb64;
 }
 
 @media screen and (min-width: 1200px) {
